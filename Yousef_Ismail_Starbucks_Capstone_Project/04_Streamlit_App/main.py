@@ -24,6 +24,10 @@ except FileNotFoundError:
     st.error("Dataset file not found. Please check file location.")
     st.stop()
 
+st.write("BASE_DIR:", BASE_DIR)
+st.write("DATA_PATH:", DATA_PATH)
+st.write("Exists:", os.path.exists(DATA_PATH))
+
 
 # with open('preprocess', "rb") as input_file:
 #     preprocessor = cPickle.load(input_file)
