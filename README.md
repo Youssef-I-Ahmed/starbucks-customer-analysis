@@ -54,3 +54,20 @@ The project includes an interactive Streamlit dashboard for data exploration.
 ```bash
 pip install -r requirements.txt
 streamlit run streamlit_app/main.py
+
+
+📌 Key Business Insights
+
+Middle-aged customers (50–60) show higher engagement with BOGO and Discount offers.
+
+Male customers tend to complete offers more frequently than other segments.
+
+Customers with higher login activity demonstrate stronger offer responsiveness.
+
+Informational offers show lower completion rates compared to BOGO and Discount offers.
+
+
+👤 Author
+
+Yousef Ismail
+Data Science & AI-Based Software Development Trainee
