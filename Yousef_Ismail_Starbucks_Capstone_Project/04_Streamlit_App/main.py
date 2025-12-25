@@ -12,7 +12,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DATA_PATH = os.path.abspath(
-    os.path.join(BASE_DIR, "..", "03_Data", "Processed_Data", "final_Cleaned_Data.csv")
+    os.path.join(BASE_DIR,"..", "..", "03_Data", "Processed_Data", "final_Cleaned_Data.csv")
 )
 st.write("BASE_DIR:", BASE_DIR)
 st.write("DATA_PATH:", DATA_PATH)
