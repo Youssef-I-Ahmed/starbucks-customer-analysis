@@ -30,8 +30,6 @@ DATA_PATH = os.path.abspath(
 #     st.stop()
 
 data = pd.read_csv(DATA_PATH)
-st.success("Dataset loaded successfully")
-
 
 
 
