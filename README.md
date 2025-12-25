@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![EDA](https://img.shields.io/badge/EDA-Data%20Science-green)
 # ☕ Starbucks Customer Behavior Analysis
 
 ## 📌 Project Overview
