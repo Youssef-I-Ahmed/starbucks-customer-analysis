@@ -5,7 +5,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 from datetime import date
 import os
-
+st.set_page_config(page_title="Prediction offers in Starbucks",layout="wide")
 #load preprocessor and model
 
 
@@ -47,7 +47,7 @@ data["age_group"]=pd.cut(x=data["age"],bins=[18,30,40,50,60,70,80,100],
           labels=["18-30 age","30-40 age","40-50 age","50-60 age","60-70 age","70-80 age","80-above age"])
 # streamlit layout
 
-st.set_page_config(page_title="Prediction offers in Starbucks",layout="wide")
+
 
 # Using object notation
 add_selectbox = st.sidebar.selectbox(
