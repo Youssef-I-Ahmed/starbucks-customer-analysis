@@ -21,13 +21,13 @@ DATA_PATH = os.path.abspath(
     )
 )
 
-st.write("DEBUG | BASE_DIR:", BASE_DIR)
-st.write("DEBUG | DATA_PATH:", DATA_PATH)
-st.write("DEBUG | EXISTS:", os.path.exists(DATA_PATH))
+# st.write("DEBUG | BASE_DIR:", BASE_DIR)
+# st.write("DEBUG | DATA_PATH:", DATA_PATH)
+# st.write("DEBUG | EXISTS:", os.path.exists(DATA_PATH))
 
-if not os.path.exists(DATA_PATH):
-    st.error("Dataset file not found. Please check file location.")
-    st.stop()
+# if not os.path.exists(DATA_PATH):
+#     st.error("Dataset file not found. Please check file location.")
+#     st.stop()
 
 data = pd.read_csv(DATA_PATH)
 st.success("Dataset loaded successfully")
