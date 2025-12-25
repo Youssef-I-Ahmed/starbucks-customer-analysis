@@ -29,7 +29,7 @@ if not os.path.exists(DATA_PATH):
     st.error("Dataset file not found. Please check file location.")
     st.stop()
 
-df = pd.read_csv(DATA_PATH)
+data = pd.read_csv(DATA_PATH)
 st.success("Dataset loaded successfully")
 
 
