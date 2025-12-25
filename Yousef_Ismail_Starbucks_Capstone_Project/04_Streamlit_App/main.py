@@ -15,7 +15,6 @@ DATA_PATH = os.path.abspath(
     os.path.join(
         BASE_DIR,
         "..",
-        "..",
         "03_Data",
         "Processed_Data",
         "final_Cleaned_Data.csv"
