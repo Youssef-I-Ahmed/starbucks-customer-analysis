@@ -9,8 +9,18 @@ import os
 #load preprocessor and model
 
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATA_PATH = os.path.join(
+   BASE_DIR,
+   "..",          # يطلع من 04_Streamlit_App          # يطلع من Yousef_Ismail_Starbucks_Capstone_Project
+   "03_Data",
+   "Processed_Data",
+   "final_Cleaned_Data.csv"
+)
+
 try:
-   data = pd.read_csv("../03_Data/Processed_Data/final_Cleaned_Data.csv")
+    data = pd.read_csv(DATA_PATH)
 except FileNotFoundError:
     st.error("Dataset file not found. Please check file location.")
     st.stop()
