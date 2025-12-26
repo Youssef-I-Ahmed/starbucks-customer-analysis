@@ -1,6 +1,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![EDA](https://img.shields.io/badge/EDA-Data%20Science-green)
+
 # ☕ Starbucks Customer Behavior Analysis
 
 ## 📌 Project Overview
@@ -32,26 +33,29 @@ The dataset includes:
 ---
 
 ## 🧠 Analysis Workflow
-1. Data Cleaning & Preprocessing
-2. Univariate Analysis
-3. Bivariate Analysis
-4. Multivariate Analysis
-5. Business Insights & Conclusions
+1. Data Cleaning & Preprocessing  
+2. Univariate Analysis  
+3. Bivariate Analysis  
+4. Multivariate Analysis  
+5. Business Insights & Conclusions  
 
 ---
 
 ## 📈 Tools & Technologies
-- Python
-- Pandas & NumPy
-- Matplotlib & Seaborn
-- Plotly
-- Streamlit
+- Python  
+- Pandas & NumPy  
+- Matplotlib & Seaborn  
+- Plotly  
+- Streamlit  
 - Scikit-learn (used only for preprocessing)
 
 ---
 
 ## 🚀 Streamlit Application
 The project includes an interactive Streamlit dashboard for data exploration.
+
+🌐 **Live App:**  
+👉 (https://starbucks-customer-analysis-nptx9zdjzgemqykw4baa3r.streamlit.app/)  
 
 ▶️ To run locally:
 ```bash
@@ -73,3 +77,5 @@ Informational offers show lower completion rates compared to BOGO and Discount o
 
 Yousef Ismail
 Data Science & AI-Based Software Development Trainee
+## 🔗 LinkedIn:
+👉 [https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME](https://www.linkedin.com/in/yousef-ismail87/)
