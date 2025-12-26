@@ -60,7 +60,7 @@ The project includes an interactive Streamlit dashboard for data exploration.
 ▶️ To run locally:
 ```bash
 pip install -r requirements.txt
-streamlit run streamlit_app/main.py
+streamlit run 04_Streamlit_App/main.py
 ```
 ---
 ## 📌 Key Business Insights
@@ -78,4 +78,4 @@ Informational offers show lower completion rates compared to BOGO and Discount o
 Yousef Ismail
 Data Science & AI-Based Software Development Trainee
 ## 🔗 LinkedIn:
-👉 [https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME](https://www.linkedin.com/in/yousef-ismail87/)
+👉 (https://www.linkedin.com/in/yousef-ismail87/)
